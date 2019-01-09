@@ -13,7 +13,6 @@
  *= require_tree .
  *= require_self
  */
-
-body {
-  background-color: gray
-}
+ body {
+   background-image: url('image1.jpg')
+ }

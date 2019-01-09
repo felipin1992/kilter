@@ -7,7 +7,12 @@ class UsersController < ApplicationController
   def matches
   end
 
-  def profile
+  def my_dogs
+    @user = current_user
   end
   
+  def new_dog
+
+  end
+
 end
